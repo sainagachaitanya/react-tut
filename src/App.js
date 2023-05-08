@@ -9,7 +9,9 @@ import './App.css';
 // import UseState04 from './lessons/lesson_04/UseState04';
 // import Exercise04 from './lessons/lesson_04/Exercise04';
 
-import CrudOperations from './lessons/lesson_05/CrudOperations';
+// import CrudOperations from './lessons/lesson_05/CrudOperations';
+
+import CLifeCycle from "./lessons/lesson_06/CLifeCycle"
 
 function App() {
   return (
@@ -25,9 +27,15 @@ function App() {
     //   <UseState04 />
     //   <Exercise04 />
     // </>
+    // <div className='App'>
+    //   <CrudOperations />
+    // </div>
     <div className='App'>
-      <CrudOperations />
+      <CLifeCycle />
     </div>
+    // <>
+    
+    // </>
   )
 };
 
