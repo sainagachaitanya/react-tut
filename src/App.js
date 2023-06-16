@@ -1,11 +1,11 @@
 import './App.css';
 
-import StateManagement from './lessons/StateManagement/StateManagement';
+import CustomHook from './lessons/CustomHook/CustomHook';
 
 const App = () => {
   return (
     <div className="App">
-      <StateManagement />
+      <CustomHook />
     </div>
   )
 };
